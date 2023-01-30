@@ -1,0 +1,58 @@
+.Inputss input{
+    
+    width: 250px;
+    height: 20px;
+    
+}
+
+.Inputss{
+    background: url("https://wallpaperaccess.com/full/1540001.jpg");
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Inputss h2{
+    color: white;
+    font-weight: 700;
+}
+
+.Inputss button{
+    margin-top: 10px;
+    width: 257px;
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    border: none;
+    height: 25px;
+}
+
+.WeatherApp{
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.WeatherIcon{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
+
+.WeatherCity{
+    font-size: 35px;
+}
+
+.WeatherTemp{
+    font-size: 45px;
+    margin: 0;
+}
